@@ -1,2 +1,4 @@
-# exploring-netflix-catalogue-powerbi
+# 🍿 **Exploring Netflix's catalogue in Power BI**
 A Power BI dashboard visualising insights into Netflix' streaming content catalogue by genre and geography.
+
+---
