@@ -16,7 +16,7 @@ The dashboard provides interactive visualisations that help explore the size and
 
 ---
 
-## 📊 **Key Features** 
+## 📊 **Key features** 
 
 The Power BI dashboard consists of **four main pages**:  
 
@@ -68,7 +68,7 @@ Data cleaning and transformation were performed in **Power Query**, ensuring con
 
 ---
 
-## 🚀 **Technologies Used**  
+## 🚀 **Technologies used**  
 
 - **Power BI** – For data visualisation  
 - **Power Query** – Data transformation and cleaning  
