@@ -76,4 +76,21 @@ Data cleaning and transformation were performed in **Power Query**, ensuring con
 
 ---
 
+## 📥 **How to use the dashboard**  
+1. Install [Power BI Desktop](https://www.microsoft.com/fr-fr/power-platform/products/power-bi/desktop?msockid=38178c20f62d614234979884f7946082)
+2. **Download the Power BI (.pbix) file** from this repository 
+2. Open the file in **Power BI Desktop**  
+3. Interact with the filters to explore different insights  
 
+---
+
+## 📌 **Future improvements**  
+- **Deeper genre-specific analysis** (e.g., which genres dominate in certain regions)
+- **More granular analysis of release trends** (e.g. hourly hotspots / see which genres or type of content tend to be uploaded at particular times of year)
+- **Integration with IMDb or Rotten Tomatoes ratings** to assess content quality
+- **Tracking Netflix Originals separately**
+
+---
+
+## 📧 **Contact**  
+For questions or feedback, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/nedchambers/).  
