@@ -27,7 +27,7 @@ The Power BI dashboard consists of **four main pages**:
    - **Content growth trend** over time
    - Slicers allowing users to filter insights by **content type** (film/TV) and **genre**
   
-[Catalogue overview page](images/1_catalogue_overview.png)
+![Catalogue overview page](images/1_catalogue_overview.png)
 
 2. **Films & TV Shows (Toggle View)** 🎬📺  
    - **Switchable view** between **Films** and **TV Shows** using an intuitive toggle button
@@ -37,9 +37,9 @@ The Power BI dashboard consists of **four main pages**:
    - Cards showing **total number of films/TV series** (according to view selected) & **most recently added title**
    - Ability to filter by **country**, **genre** and **release year**
   
-[Films page](images/2a_films.png)
+![Films page](images/2a_films.png)
 
-[TV Shows page](images/2b_tv_shows.png)
+![TV Shows page](images/2b_tv_shows.png)
 
 3. **Countries** 🌎  
    - Top 10 countries contributing the most Netflix content  
@@ -48,14 +48,14 @@ The Power BI dashboard consists of **four main pages**:
    - A filterable **table** showing insights into the **number of titles contributed** and **dominant genre, director and actor** for each country
    - Filterable by **country**, **continent** and **content type**
   
-[Countries page](images/3_countries.png)
+![Countries page](images/3_countries.png)
 
 4. **Seasonal Trends** 📆  
    - **Release patterns by month and day**  
    - **Annual and weekly release trends**, highlighting peak content drops
    - Filterable by **year**, **country**, **content type** and **genre** for more granular trends
   
-[Seasonal Trends page](images/4_seasonal_trends.png)
+![Seasonal Trends page](images/4_seasonal_trends.png)
   
 ---
 
