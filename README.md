@@ -16,9 +16,9 @@ The dashboard provides interactive visualisations that help explore the size and
 
 ---
 
-## 🎬 Key insights from Netflix's catalogue
+## 🎬 Key insights
 
-This project explores Netflix's vast content library, identifying trends in geographic distribution, genre preferences, and release patterns. Here are some key takeaways from our analysis:  
+This project explores Netflix's vast content library, identifying trends in geographic distribution, genre preferences, and release patterns. Here are some key takeaways from the analysis:  
 
 - **Global content distribution**: The **United States** boasts the most extensive release catalogue, followed by **India** and the **United Kingdom**, highlighting Netflix’s focus on these key markets.  
 - **Genre trends**: Dramas and comedies dominate as the most commonly produced genres, but country-specific preferences emerge - **France** contributes a significant number of **Independent Films**, while the **UK** are **drama queens**.  
