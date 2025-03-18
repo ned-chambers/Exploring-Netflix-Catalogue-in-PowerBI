@@ -143,7 +143,7 @@ To enhance analysis and enable deeper insights, several **calculated columns and
 These **DAX measures** and **calculated columns** were essential for creating interactive **visualisations**, enabling dynamic filtering, ranking, and time-based analysis in **Power BI**.
 
 
-These transformations ensured the dataset was **clean, structured, and optimised** for interactive visualisation in **Power BI**.
+The above transformations ensured the dataset was **clean, structured, and optimised** for interactive visualisation in **Power BI**.
 
 ---
 
