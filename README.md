@@ -48,3 +48,26 @@ The Power BI dashboard consists of **four main pages**:
    - Filterable by **year**, **country**, **content type** and **genre** for more granular trends
   
 ---
+
+## 📂 **Dataset**  
+
+The dataset (Netflix Movies and TV Shows) was sourced from [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows) and contains metadata on Netflix’s catalogue, including:  
+
+- `title`: The name of a film/TV show.
+- `type`: Whether a piece of content is a film or a TV show.
+- `listed_in`: The **genre** of the film or TV Show.
+- `director`: The director(s) of a piece of content.
+- `cast`: The actors appearing in the title.
+- `country`: The country (/countries) where a piece of content was produced.
+- `release_year`: The year a piece of content was first released.
+- `date_added`: The date a piece of content was added to the Netflix platform (not always the same as `release_year` if not an original Netflix production).
+
+It contains a total of 12 columns and 8807 rows.
+
+Data cleaning and transformation were performed in **Power Query**, ensuring consistency for analysis.
+
+---
+
+
+
+
