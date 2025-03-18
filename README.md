@@ -58,6 +58,21 @@ The Power BI dashboard consists of **four main pages**:
 ![Seasonal Trends page](images/4_seasonal_trends.png)
   
 ---
+## 🎥 **Demo**  
+
+Check out this short animated demo showcasing the interactive features of the **Netflix Power BI Dashboard**:  
+
+![Netflix Dashboard Demo](images/netflix_dashboard_demo.gif)  
+
+📌 **Features shown in the demo:**  
+- **Toggling between Films & TV Shows**  
+- **Filtering by country, genre, and release year**  
+- **Exploring content distribution across the world**  
+- **Analysing seasonal trends in content releases**  
+
+To explore the full dashboard, download the **Power BI (.pbix) file** and interact with the data yourself!
+
+---
 
 ## 📂 **Dataset**  
 
