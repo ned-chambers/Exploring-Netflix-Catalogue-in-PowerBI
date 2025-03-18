@@ -53,7 +53,7 @@ The Power BI dashboard consists of **four main pages**:
 
 The dataset (Netflix Movies and TV Shows) was sourced from [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows) and contains metadata on Netflix’s catalogue, including:  
 
-- `title`: The name of a film/TV show.
+- `title`: The name of a piece of content.
 - `type`: Whether a piece of content is a film or a TV show.
 - `listed_in`: The **genre** of the film or TV Show.
 - `director`: The director(s) of a piece of content.
