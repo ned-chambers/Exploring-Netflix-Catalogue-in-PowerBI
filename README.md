@@ -78,6 +78,75 @@ Data cleaning and transformation were performed in **Power Query**, ensuring con
 
 ---
 
+## ⚙️ **Data Processing**  
+
+To ensure the dataset was clean, consistent, and optimised for analysis in **Power BI**, the following preprocessing steps were applied:
+
+1. **Data Ingestion & Exploration**  
+   - Imported the dataset into **Power BI** via **Power Query**.  
+   - Conducted **Exploratory Data Analysis (EDA)** to understand missing values, inconsistencies, and key trends.
+
+2. **Data Cleaning & Transformation**  
+   - **Standardised column names** for consistency (e.g. changed `listed_in` to `genre`).  
+   - **Converted data types** (e.g., ensuring dates were in `DateTime` format).  
+   - **Handled missing values**:  
+     - Removed entries with critical missing data (e.g., missing title, type).  
+     - Filled or imputed missing values where feasible.  
+   - **Standardised column values** for better readability (e.g. changed all mentions of "Movie" in `type` column to "Film" according to British English convention).
+  
+### **3. Data Normalisation: Creating New Tables**  
+A number of columns contained multiple entries. This posed a problem for the accurate visualisation of certain fields (e.g. `genre`, `country`, `cast`, `director`). For these columns, a new dataset was created with just the columns `show_id` and the column in question, allowing for duplicate entries if a film or TV show had multiple genres, directors, cast members or countries of origin. This ensured for more accurate analysis and aggregation of these columns.
+
+Additionally, the `film_duration` column contained a mix of different types of data (duration in minutes or duration in number of seasons) depending on the type of content for a given title. This meant that the column needed to be split in two according to content `type` to facilitate visualisation.
+
+To ensure more accurate analysis and improve filtering, **data normalisation** was performed by breaking down the dataset into separate tables:
+
+- **`countries`** – Extracted **country information** from the main dataset, enabling geographic analysis.  
+- **`directors`** – Created a separate **directors table**, linking each film/TV show to its director(s).  
+- **`cast_members`** – Extracted and normalised **cast members**, allowing for better actor-based insights.  
+- **`genres`** – Normalised multi-genre listings, ensuring accurate genre-based filtering.  
+- **`film_durations` & `tv_show_durations`** – Separated **film and TV show durations** for better runtime analysis.
+
+The original columns were then dropped from the original `netflix_titles` fact table and relationships were then established between the new tables and the fact table in the Modelling View, using `show_id` as the key and ensuring proper cardinality.
+
+At the end of this normalisation process the data model followed a star schema, **with `netflix_titles` as the central fact table** and the newly created tables (`countries`, `directors`, `cast_members`, `genres`, `film_durations`, and `tv_show_durations`) acting as **dimension tables**. This structure improved **data integrity, filtering efficiency, and aggregation accuracy** across the dashboard.
+
+### **4. Feature Engineering**  
+To enhance analysis and enable deeper insights, several **calculated columns and DAX measures** were created in **Power BI**:
+
+#### **Custom Date Features** (for trend analysis)  
+- **`Day_Name`** – Extracted day of the week from `date_added` to analyse daily release patterns.  
+- **`Month_Name` & `Month_Sort_Order`** – Extracted month names and assigned sort order for proper chronological display.  
+- **`Day_of_Week`** – Numeric representation of the weekday for sorting.  
+
+#### **Content Distribution & Aggregation Measures**  
+- **`_Daily_Releases`** – Count of titles released per day.  
+- **`_Cumulative_Content`** – Running total of Netflix catalogue growth over time.  
+- **`_Number_of_Titles_per_Country`** – Count of titles available per country.  
+
+#### **Genre & Cast Analysis**  
+- **`_Genre_Count`** – Number of times a genre appears across all titles.  
+- **`_Dominant_Genre_Global`** – Identifies the most frequent genre in the dataset.  
+- **`_Dominant_Actor` & `_Dominant_Director`** – Most frequently appearing actors and directors.  
+
+#### **Recently Added Content Insights**  
+- **`_Most_Recent_Date_Added`** – Latest content addition date in the dataset.  
+- **`_Most_Recently_Added_Title`** – Last title added to Netflix.  
+- **`_Most_Recently_Added_Director`** – Director of the latest added content.  
+- **`_Most_Recently_Added_Description`** – Description of the most recent addition.  
+
+#### **Content Type Percentage Measures**  
+- **`_Percentage_Films` & `_Percentage_TV_Shows`** – Proportion of films vs. TV shows in the dataset.  
+- **`_Percentage_Movies`** – Alternative measure for film percentage.  
+- **`_Percentage_Films_No_Blank` & `_Percentage_TV_Shows_No_Blank`** – Filters out blank values for more accurate percentages.  
+
+These **DAX measures** and **calculated columns** were essential for creating interactive **visualisations**, enabling dynamic filtering, ranking, and time-based analysis in **Power BI**.
+
+
+These transformations ensured the dataset was **clean, structured, and optimised** for interactive visualisation in **Power BI**.
+
+---
+
 ## 🚀 **Technologies used**  
 
 - **Power BI** – For data visualisation  
