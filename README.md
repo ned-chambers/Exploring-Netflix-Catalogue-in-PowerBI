@@ -68,6 +68,12 @@ Data cleaning and transformation were performed in **Power Query**, ensuring con
 
 ---
 
+## 🚀 **Technologies Used**  
 
+- **Power BI** – For data visualisation  
+- **Power Query** – Data transformation and cleaning  
+- **DAX (Data Analysis Expressions)** – Custom calculations and measures  
+
+---
 
 
