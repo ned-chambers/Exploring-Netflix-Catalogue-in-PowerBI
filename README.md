@@ -16,6 +16,19 @@ The dashboard provides interactive visualisations that help explore the size and
 
 ---
 
+## 🎬 Key insights from Netflix's catalogue
+
+This project explores Netflix's vast content library, identifying trends in geographic distribution, genre preferences, and release patterns. Here are some key takeaways from our analysis:  
+
+- **Global content distribution**: The **United States** boasts the most extensive release catalogue, followed by **India** and the **United Kingdom**, highlighting Netflix’s focus on these key markets.  
+- **Genre trends**: Dramas and comedies dominate as the most commonly produced genres, but country-specific preferences emerge—**France** contributes a significant number of **Independent Films**, while the **UK** are **drama queens**.  
+- **Bollywood’s strong presence**: The **five most frequently featured actors** in the catalogue are all from the **Indian film industry**, showcasing Netflix’s commitment to Bollywood content.  
+- **Timed for the weekend binge**: Content is often added on **Fridays** or in the **lead-up to the weekend**, particularly for series—**just in time for a weekend binge**.  
+- **Peak release months**: **July and December** see the highest number of film and TV show additions, perfectly timed for **summer lounging and festive cocooning**.  
+
+
+---
+
 ## 📊 **Key features** 
 
 The Power BI dashboard consists of **four main pages**:  
